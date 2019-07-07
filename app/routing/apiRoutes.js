@@ -56,6 +56,7 @@ module.exports = function(app){
         console.log("new user added");
         console.log(userData);
         res.json(bestMatch);
+        return(bestMatch);
 
     });
 }
